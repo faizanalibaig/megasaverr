@@ -43,7 +43,7 @@ const Home = () => {
   // })
 
   return (
-    <section className='w-full h-auto'>
+    <section className='w-full h-auto border-x-[2px] border-gray-50/25'>
       {/*  */}
              <div className='bg-black text-white h-[64px] sm:h-[96px] lg:h-[112px] w-full'/>
 
@@ -53,7 +53,7 @@ const Home = () => {
 
 <div className=' w-full h-full flex flex-col border-[2px] border-gray-50/5'>
 {/*  */}
-    <section className='bg-black text-white w-full h-full'>
+    <section className='bg-black text-white w-full h-full border-b-[2px] border-gray-50/5'>
       <h1 id='mainHeading' className='text-[26px] sm:text-[36px] lg:text-[45px] xl:text-[50px] font-bold  w-full h-auto text-center py-8 px-3 sm:px-0 '>
       <span> gateway </span> <span> to </span> <span> hosting </span> <span> discounts</span>
        <span className='text-red-500'>.</span>
