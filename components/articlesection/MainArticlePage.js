@@ -51,7 +51,7 @@ const MainArticlePage = () => {
         {/* Help content */}
         <section className='border-b border-black/10 py-8 sm:py-12 lg:py-16 flex flex-col gap-10 text-[14px] sm:text-[15px] xl:text-[18px]'>
           <p className='px-5 sm:px-16 lg:px-32 xl:px-40'>
-          Welcome to the Hosting Discounts page at megasaverr! Here, you'll find a comprehensive collection of discounts from leading hosting providers. Whether you're launching a new website or upgrading your current hosting plan, our platform offers exclusive deals from companies like Bluehost, Hostinger, godaddy, namecheap and more.<br/><br/> Stay tuned as we continually update our offerings to bring you the latest savings opportunities across a wide range of hosting services. Start saving today with megasaverr!
+          Welcome to the Hosting Discounts page at megasaverr! Here, you will find a comprehensive collection of discounts from leading hosting providers. Whether you are launching a new website or upgrading your current hosting plan, our platform offers exclusive deals from companies like Bluehost, Hostinger, godaddy, namecheap and more.<br/><br/> Stay tuned as we continually update our offerings to bring you the latest savings opportunities across a wide range of hosting services. Start saving today with megasaverr!
           </p>
 
           {/* FAQs section */}

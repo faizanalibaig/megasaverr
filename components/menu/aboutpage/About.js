@@ -18,7 +18,7 @@ const About = () => {
         {/* About Us content */}
         <section className='border-b border-black/10 px-5 sm:px-16 lg:px-32 xl:px-40 py-8 sm:py-12 lg:py-16 flex flex-col gap-10 text-[14px] sm:text-[15px] xl:text-[18px]'>
           <p>
-            Welcome to megasaverr, your gateway to hosting discounts! At megasaverr, we are passionate about helping you find the best deals on web hosting services. Our team works tirelessly to scour the internet for the latest discounts and coupon codes from top hosting providers like Bluehost and Hostinger. Whether you're launching a new website or upgrading your current hosting plan, we're here to save you money and simplify your hosting journey.
+            Welcome to megasaverr, your gateway to hosting discounts! At megasaverr, we are passionate about helping you find the best deals on web hosting services. Our team works tirelessly to scour the internet for the latest discounts and coupon codes from top hosting providers like Bluehost and Hostinger. Whether you are launching a new website or upgrading your current hosting plan, we are here to save you money and simplify your hosting journey.
           </p>
 
           <p>

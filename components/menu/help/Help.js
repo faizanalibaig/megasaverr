@@ -21,7 +21,7 @@ const Help = () => {
         {/* Help content */}
         <section className='border-b border-black/10 px-5 sm:px-16 lg:px-32 xl:px-40 py-8 sm:py-12 lg:py-16 flex flex-col gap-10 text-[14px] sm:text-[15px] xl:text-[18px]'>
           <p>
-            Welcome to the megasaverr Help Center! We're here to assist you in finding the best hosting discounts and navigating our website effortlessly. Whether you have questions about our services, need assistance with using coupon codes, or want to know more about our featured hosting providers, you've come to the right place.
+            Welcome to the megasaverr Help Center! We are here to assist you in finding the best hosting discounts and navigating our website effortlessly. Whether you have questions about our services, need assistance with using coupon codes, or want to know more about our featured hosting providers, you have come to the right place.
           </p>
 
           {/* FAQs section */}
@@ -29,7 +29,7 @@ const Help = () => {
             <h1 className='font-semibold'>FAQs</h1>
             <ol className='list-decimal pl-5'>
               <br/>
-              <li><span className='font-semibold'>How do I use coupon codes on megasaverr?</span><br/><br/>To use a coupon code, simply click on the offer you're interested in. You'll be redirected to the hosting provider's website where you can apply the code during checkout.</li>
+              <li><span className='font-semibold'>How do I use coupon codes on megasaverr?</span><br/><br/>To use a coupon code, simply click on the offer you are interested in. You will be redirected to the hosting providers website where you can apply the code during checkout.</li>
               <br/>
               <li><span className='font-semibold'>Are the hosting deals on megasaverr updated regularly?</span><br/><br/>Yes, we strive to keep our deals updated regularly to ensure you have access to the latest discounts and promotions from top hosting providers.</li>
               <br/>
@@ -40,14 +40,14 @@ const Help = () => {
           {/* Contact Us section */}
           <section className='flex flex-col gap-2'>
             <h1 className='font-semibold'>Contact Us</h1>
-            <p>If you have any further questions or need assistance, please don't hesitate to reach out to us:
+            <p>If you have any further questions or need assistance, please do not hesitate to reach out to us:
               <br/>
               Email: megasaverr@gmail.com
             </p>
           </section>
 
           <p>
-            Thank you for choosing megasaverr. We're here to make your hosting experience affordable and hassle-free!
+            Thank you for choosing megasaverr. We are here to make your hosting experience affordable and hassle-free!
           </p>
         </section>
       </section>

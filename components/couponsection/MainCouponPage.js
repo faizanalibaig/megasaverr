@@ -75,7 +75,7 @@ const Help = () => {
           <p className='px-5 sm:px-16 lg:px-32 xl:px-40'>
             welcome to the coupon codes section at megasaverr! Here, you can find the latest and most exclusive coupon codes for popular hosting companies. Our team regularly updates this page to bring you the best deals from top providers like Bluehost, Hostinger, SiteGround, and more.
             <br /><br />
-            Whether you're starting a new website or upgrading your hosting plan, our curated selection of verified discounts ensures you get the best value. Save time and money with our easy-to-use platform, designed to help you find exceptional hosting deals quickly.
+            Whether you are starting a new website or upgrading your hosting plan, our curated selection of verified discounts ensures you get the best value. Save time and money with our easy-to-use platform, designed to help you find exceptional hosting deals quickly.
             <br /><br />
             Start browsing now and unlock significant savings on your hosting needs with megasaverr!
           </p>
