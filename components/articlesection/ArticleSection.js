@@ -36,7 +36,7 @@ const ArticleSection = () => {
   },[])
 
   return (
-    <section className='font-pathwayExtreme border-x-[2px] border-gray-50/25'>
+    <section className='bg-black text-white font-pathwayExtreme border-x-[2px] border-gray-50/25'>
       <section className='flex justify-between items-end border-t border-black/10 mb-14'>
         <div className='h-full'>
           <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] mb-1 font-semibold w-full h-auto pt-10 pl-6 sm:pl-7 lg:pl-16 xl:pl-9'>
@@ -63,7 +63,7 @@ const ArticleSection = () => {
           <ArticleCard />
         </section>
 
-        <div className=' pl-3 block sm:hidden'>
+        <div className='bg-black text-white pl-3 block sm:hidden'>
           <button className='px-4 lg:px-5 py-2 bg-gray-50/10 border-[2px] border-gray-50/25 flex gap-1 items-center 
           hover:bg-gray-100/10 active:bg-gray-100/10 hover:border-gray-50/40 active:border-black/20 mr-6'>
             <Link href='/discounts'>view all</Link>

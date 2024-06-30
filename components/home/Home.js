@@ -44,7 +44,7 @@ const Home = () => {
 
   return (
     <section className='w-full h-auto pt-16 sm:pt-24 lg:pt-28 font-pathwayExtreme border-x-[2px] border-gray-50/25 flex'>
-        <div className='border-y-[2px] border-gray-50/5 h-auto w-[5%]'/>
+        <div className='bg-black text-white border-y-[2px] border-gray-50/5 h-auto w-[5%]'/>
 
       <div className=' w-full h-full flex flex-col border-[2px] border-gray-50/5'>
       {/*  */}
@@ -76,7 +76,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className='border-y-[2px] border-gray-50/5 h-auto w-[5%]'/>
+      <div className='bg-black text-white border-y-[2px] border-gray-50/5 h-auto w-[5%]'/>
     </section>
   )
 }

@@ -14,18 +14,18 @@ function App() {
       <AlertMessage/>
       <Navbar/>
       <Home />
-      <div className="h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
       <ArticleSection />
-      <div className="h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
       <CouponSection />
-      <div className="h-[50px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[50px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
       <SaveContact />
       {/* <Cashback /> */}
       <div className="fixed bottom-0 w-full">
       <WelcomeNotification />
       </div>
 
-      <div className="h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
       <Footer/>
     </main>
   );
