@@ -2,7 +2,7 @@ import React from 'react'
 
 const SaveContact = () => {
   return (
-    <section className='border-x-[2px] border-gray-50/25'>
+    <section className='bg-black text-white border-x-[2px] border-gray-50/25'>
       <section className='w-full h-auto font-pathwayExtreme border-y border-black/10 py-0'>
 
 <section className='h-full flex flex-col justify-center'>

@@ -5,7 +5,7 @@ import { MdClose } from "react-icons/md";
 
 const Search = ({close}) => {
   return (
-    <section className='w-full h-[78.2px] sm:h-[79px] font-pathwayExtreme flex justify-between bg-black lg:text-[15px] xl:text-[18px] border-b-[2px] border-gray-50/25'>
+    <section className='w-full h-[78.2px] sm:h-[79px] font-pathwayExtreme flex justify-between bg-black text-white lg:text-[15px] xl:text-[18px] border-b-[2px] border-gray-50/25'>
       <div className='h-full w-[80%] flex items-center'>
         <section className='hidden lg:block h-full'>
         <div className='text-xl px-6 border-r-[2px] border-gray-50/25 h-full flex items-center'>

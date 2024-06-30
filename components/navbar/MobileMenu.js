@@ -18,7 +18,7 @@ const MobileMenu = ({ close }) => {
   };
 
   return (
-    <section className='w-full h-auto block lg:hidden text-[16px] sm:text-[17px] bg-black z-10 pb-52 border-[2px] border-gray-50/25'>
+    <section className='text-white w-full h-auto block lg:hidden text-[16px] sm:text-[17px] bg-black z-10 pb-52 border-[2px] border-gray-50/25'>
       <div className='flex flex-col gap-8 px-6 sm:px-7 py-5 sm:py-6'>
         {menulist.map((value, index) => (
           <Link key={value.id} href={value.link} className='font-semibold flex items-center gap-1' onClick={handleClick}>
