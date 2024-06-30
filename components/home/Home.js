@@ -43,14 +43,14 @@ const Home = () => {
   return (
     <main className='w-full h-auto border-x-2 border-gray-50/25'>
       {/* Top spacing */}
-      <div className='bg-black text-white h-[64px] sm:h-[96px] lg:h-[112px] w-full' />
+      <div className='bg-black h-[64px] sm:h-[96px] lg:h-[112px] w-full' />
 
       <section className='flex'>
         {/* Left border */}
         <aside className='bg-black text-white border-y-2 border-gray-50/5 h-auto w-[5%]' />
 
         <section className='w-full'>
-          <div className='w-full h-full flex flex-col border-2 border-gray-50/5'>
+          <div className='w-full h-full flex flex-col border- border-gray-50/5'>
 
             {/* Main heading section */}
             <section className='bg-black text-white w-full h-full border-b-2 border-gray-50/5'>
