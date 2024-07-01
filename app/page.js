@@ -11,8 +11,6 @@ import Footer from '@/components/footer/Footer';
 function App() {
   return (
     <main>
-      <AlertMessage/>
-      <Navbar/>
       <Home />
       <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
       <ArticleSection />
@@ -26,7 +24,6 @@ function App() {
       </div>
 
       <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
-      <Footer/>
     </main>
   );
 }

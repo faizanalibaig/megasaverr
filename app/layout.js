@@ -1,5 +1,8 @@
 import { Pathway_Extreme } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
+import AlertMessage from "@/components/alertmessage/AlertMessage";
 
 const pathway = Pathway_Extreme({weight:['400', '700'], subsets: ["latin"] });
 
@@ -11,7 +14,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={pathway.className}>{children}</body>
+      <body className={pathway.className}>
+        <AlertMessage/>
+        <Navbar/>
+        {children}
+        <Footer/>
+        </body>
     </html>
   );
 }
