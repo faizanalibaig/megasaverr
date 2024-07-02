@@ -4,13 +4,13 @@ const About = () => {
   return (
     <section className='bg-black text-white w-full h-auto flex py-12 sm:py-16 lg:py-20 border-x border-black/10 font-pathwayExtreme'>
       {/* Left border spacer */}
-      <div className='w-[5%] border-y border-r border-black/10 h-auto'></div>
+      <div className='sm:w-[5%] border-y border-r border-black/10 h-auto'></div>
       
       {/* Main content area */}
-      <section className='w-[90%] h-full'>
+      <section className='w-full sm:w-[90%] h-full'>
         {/* Title section */}
         <section className='w-full border-y border-black/10'>
-          <h1 className='text-[26px] sm:text-[36px] lg:text-[45px] xl:text-[50px] font-semibold text-center py-8'>
+          <h1 className='text-[26px] sm:text-[36px] lg:text-[45px] xl:text-[50px] font-semibold text-center pt-8'>
             About Us
           </h1>
         </section>
@@ -32,7 +32,7 @@ const About = () => {
       </section>
       
       {/* Right border spacer */}
-      <div className='w-[5%] border-y border-l border-black/10'></div>
+      <div className='sm:w-[5%] border-y border-l border-black/10'></div>
     </section>
   );
 }

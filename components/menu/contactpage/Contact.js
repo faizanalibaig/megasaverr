@@ -9,9 +9,9 @@ const Contact = () => {
 
   return (
     <section className='bg-black text-white font-pathwayExtreme w-full h-auto sm:h-[700px] flex py-20 border-x border-black/10'>
-      <div className='w-[5%] border-y border-black/10'></div>
+      <div className='sm:w-[5%] border-y border-black/10'></div>
 
-    <section className='flex flex-col sm:flex-row w-[90%]'>
+    <section className='flex flex-col sm:flex-row w-full sm:w-[90%]'>
     <div className='sm:w-[50%] py-8 px-8 border border-black/10'>
           <h1 className='font-semibold text-[26px] sm:text-[36px] lg:text-[45px] xl:text-[50px]'>
             contact us
@@ -51,7 +51,7 @@ const Contact = () => {
       </div>
     </section>
 
-      <div className='w-[5%] border-y border-black/10'></div>
+      <div className='sm:w-[5%] border-y border-black/10'></div>
     </section>
   )
 }
