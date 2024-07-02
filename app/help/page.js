@@ -1,5 +1,6 @@
-import Help from '@/components/couponsection/MainCouponPage'
+import Help from '@/components/menu/help/Help'
 import React from 'react'
+
 
 const HelpPage = () => {
   return (

@@ -3,7 +3,9 @@ import React from 'react';
 const CouponTable = ({ couponHeading, couponList }) => {
   return (
     <section className='bg-black text-white flex flex-col px-5 sm:px-16 lg:px-32 xl:px-40'>
-      <section className='text-white w-full h-[60px] border-l border-t border-b border-black/10 flex bg-gray-100'>
+
+      <section className='text-white w-full h-[60px] border-l border-t border-b border-black/10 flex 
+      bg-gray-100/10'>
         {couponHeading.map((value, index) => {
           const hiddenClass = index === 0 ? 'hidden sm:flex sm:items-center justify-center' : 'block';
           const widthClass = index === 0 ? 'w-0 sm:w-[10%]' : 'pl-3 w-[34%] sm:w-[30%]';
@@ -24,7 +26,7 @@ const CouponTable = ({ couponHeading, couponList }) => {
               return (
                 <h1
                   key={value.id}
-                  className={`text-[15px] xl:text-[18px] border-r border-b hover:bg-gray-50 border-black/10 ${hiddenClass} ${widthClass} flex items-center`}>
+                  className={`text-[15px] xl:text-[18px] hover:bg-gray-50/5 border-black/10 ${hiddenClass} ${widthClass} flex items-center`}>
                   {value.title}
                 </h1>
               );

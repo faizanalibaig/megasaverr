@@ -12,18 +12,18 @@ function App() {
   return (
     <main>
       <Home />
-      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] " />
       <ArticleSection />
-      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px]" />
       <CouponSection />
-      <div className="bg-black text-white h-[50px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[40px] sm:h-[110px] lg:h-[130px] xl:h-[160px]" />
       <SaveContact />
       {/* <Cashback /> */}
       <div className="fixed bottom-0 w-full">
       <WelcomeNotification />
       </div>
 
-      <div className="bg-black text-white h-[100px] sm:h-[120px] lg:h-[150px] xl:h-[180px] border-x-[2px] border-gray-50/25" />
+      <div className="bg-black text-white h-[40px] sm:h-[110px] lg:h-[130px] xl:h-[160px]" />
     </main>
   );
 }

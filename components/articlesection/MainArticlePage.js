@@ -1,11 +1,11 @@
+'use client'
 import React, {useEffect} from 'react'
-import { Link } from 'react-router-dom';
-
+import Link from 'next/link';
 
 const ArticleCard = () => (
   <div className='bg-black text-white h-[375px] lg:h-[380px] xl:h-[400px] sm:w-[300px] xl:w-[340px] border border-black/10 px-3 py-3 flex flex-col justify-between shadow-[0_2px_4px_rgba(0,0,0,0.05)]'>
     <section className='h-full flex flex-col gap-3'>
-      <div className='h-[55%] bg-black' />
+      <div className='h-[55%] bg-gray-50/10' />
       <div className='flex flex-col gap-2'>
         <h1 className='font-semibold text-[16px] lg:text-[18px] xl:text-[19px]'>
           bluehost - up to 70% off
@@ -16,7 +16,7 @@ const ArticleCard = () => (
       </div>
     </section>
     <div className='flex justify-between text-[14px] xl:text-[15px]'>
-      <Link to={'discounts/hello'} className='px-3 lg:px-4 py-2 bg-gray-50/10 border border-black/10 flex gap-1 items-center 
+      <Link href='discounts/hello' className='px-3 lg:px-4 py-2 bg-gray-50/10 border border-black/10 flex gap-1 items-center 
       hover:bg-gray-100/10 active:bg-gray-100/10 hover:border-black/20 active:border-black/20'>
         read more
       </Link>
@@ -35,7 +35,7 @@ const MainArticlePage = () => {
   }, []);
 
    return (
-    <section className='w-full h-auto flex py-12 sm:py-16 lg:py-20 border-x border-black/10 font-pathwayExtreme'>
+    <section className='bg-black text-white w-full h-auto flex py-12 sm:py-16 lg:py-20 border-x border-black/10 font-pathwayExtreme'>
       {/* Left border spacer */}
       <div className='w-[5%] border-y border-r border-black/10 h-auto'></div>
       

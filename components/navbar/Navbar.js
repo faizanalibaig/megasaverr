@@ -75,7 +75,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-black text-white w-full h-[80px] border-[2px] border-gray-50/25 font-pathwayExtreme relative'>
+        <nav className='bg-black text-white w-full h-[80px] border-y-[2px] border-gray-50/25 font-pathwayExtreme relative'>
             <header className='h-full flex items-center justify-between relative'>
                 <section className='border-r-[2px] border-gray-50/25 h-full'>
                   <Link href='/' id='navheading' className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-6 sm:px-7 lg:px-6 xl:px-10 py-5 cursor-pointer h-full flex items-center'>

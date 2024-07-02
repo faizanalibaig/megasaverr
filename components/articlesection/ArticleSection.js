@@ -4,7 +4,7 @@ import { MdArrowOutward } from "react-icons/md";
 import Link from 'next/link';
 
 const ArticleCard = () => (
-  <div className='bg-black text-white h-[375px] lg:h-[380px] xl:h-[400px] sm:w-[350px] lg:w-[300px] xl:w-[340px] border border-black/10 px-3 py-3 flex flex-col justify-between shadow-[0_2px_4px_rgba(0,0,0,0.05)]'>
+  <div className='bg-black text-white h-[375px] lg:h-[380px] xl:h-[400px] sm:w-[350px] lg:w-[300px] xl:w-[340px]  px-3 py-3 flex flex-col justify-between shadow-[0_2px_4px_rgba(0,0,0,0.05)]'>
     <section className='h-full flex flex-col gap-3'>
       <div className='h-[55%] bg-gray-50/20' />
       <div className='flex flex-col gap-2'>
@@ -36,7 +36,7 @@ const ArticleSection = () => {
   },[])
 
   return (
-    <section className='bg-black text-white font-pathwayExtreme border-x-[2px] border-gray-50/25'>
+    <section className='bg-black text-white font-pathwayExtreme '>
       <section className='flex justify-between items-end border-t border-black/10 mb-14'>
         <div className='h-full'>
           <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] mb-1 font-semibold w-full h-auto pt-10 pl-6 sm:pl-7 lg:pl-16 xl:pl-9'>
