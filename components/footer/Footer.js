@@ -35,9 +35,9 @@ const Footer = () => {
     <section className='bg-black text-white border-y-[2px] border-gray-50/25 w-full h-[550px] sm:h-[450px] lg:h-[400px] font-pathwayExtreme sm:pt-5'>
       <section className='grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-4 h-[90%]'>
         <section className='pt-5 sm:py-5 flex items-start'>
-          <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-7 lg:px-6 xl:px-10 cursor-pointer flex items-center'>
+          <Link href='/' className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-7 lg:px-6 xl:px-10 cursor-pointer flex items-center'>
             megasaverr<span className='sm:text-[20px] lg:text-[22px] xl:text-2xl text-red-500'>.</span>
-          </h1>
+          </Link>
         </section>
 
         <section className='flex justify-center gap-10 py-6 col-span-2'>

@@ -55,13 +55,13 @@ const MainCouponPage = () => {
   return (
     <section className='bg-black text-white w-full h-auto flex py-12 sm:py-16 lg:py-20 border-x border-black/10 font-pathwayExtreme'>
       {/* Left border spacer */}
-      <div className='w-[5%] border-y border-r border-black/10 h-auto'></div>
+      <div className='w-[0%] sm:w-[5%] border-y border-r border-black/10 h-auto'></div>
       
       {/* Main content area */}
-      <section className='w-[90%] h-full'>
+      <section className='w-[100%] h-full'>
         {/* Title section */}
         <section className='w-full border-y border-black/10'>
-          <h1 className='text-[26px] sm:text-[36px] lg:text-[45px] xl:text-[50px] font-semibold text-center py-8'>
+          <h1 className='text-[26px] sm:text-[36px] lg:text-[45px] xl:text-[50px] font-semibold text-center pt-8 pb-0'>
             coupon code
           </h1>
         </section>
@@ -78,7 +78,7 @@ const MainCouponPage = () => {
 
           {/* Specific coupon code section */}
           <section className='mt-10 w-full border-y border-black/10'>
-            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 py-5'>
+            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 pt-5 pb-1'>
               hostinger coupon code
             </h1>
           </section>
@@ -87,7 +87,7 @@ const MainCouponPage = () => {
           <CouponTable couponHeading={couponHeading} couponList={couponList} />
 
           <section className='mt-10 w-full border-y border-black/10'>
-            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 py-5'>
+            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 pt-5 pb-1'>
               bluehost coupon code
             </h1>
           </section>
@@ -96,7 +96,7 @@ const MainCouponPage = () => {
           <CouponTable couponHeading={couponHeading} couponList={couponList} />
 
           <section className='mt-10 w-full border-y border-black/10'>
-            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 py-5'>
+            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 pt-5 pb-1'>
               godaddy coupon code
             </h1>
           </section>
@@ -105,7 +105,7 @@ const MainCouponPage = () => {
           <CouponTable couponHeading={couponHeading} couponList={couponList} />
 
           <section className='mt-10 w-full border-y border-black/10'>
-            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 py-5'>
+            <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 pt-5 pb-1'>
               namecheap coupon code
             </h1>
           </section>
@@ -125,7 +125,7 @@ const MainCouponPage = () => {
       </section>
       
       {/* Right border spacer */}
-      <div className='w-[5%] border-y border-l border-black/10'></div>
+      <div className='w-[0%] sm:w-[5%] border-y border-l border-black/10'></div>
     </section>
   );
 }

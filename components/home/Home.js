@@ -72,7 +72,7 @@ const Home = () => {
 
             {/* Button section */}
             <div id='mainButton' className='bg-black text-white text-[14px] sm:text-[15px] xl:text-[18px] w-full h-auto py-8 flex justify-center gap-2'>
-              <Link href='/couponcode'>
+              <Link href='/couponcodes'>
                 <button className='px-3 lg:px-4 py-[10px] bg-red-500 text-white cursor-pointer'>
                   coupon code
                 </button>
