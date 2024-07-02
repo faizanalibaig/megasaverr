@@ -27,7 +27,7 @@ const Help = () => {
 
           {/* FAQs section */}
           <section className='flex flex-col gap-2'>
-            <h1 className='font-semibold'>FAQs</h1>
+            <h1 className='font-semibold text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px]'>common questions:</h1>
             <ol className='list-decimal pl-5'>
               <br/>
               <li><span className='font-semibold'>How do I use coupon codes on megasaverr?</span><br/><br/>To use a coupon code, simply click on the offer you are interested in. You will be redirected to the hosting providers website where you can apply the code during checkout.</li>
@@ -40,7 +40,7 @@ const Help = () => {
 
           {/* Contact Us section */}
           <section className='flex flex-col gap-2'>
-            <h1 className='font-semibold'>Contact Us</h1>
+            <h1 className='font-semibold text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px]'>contact us</h1>
             <p>If you have any further questions or need assistance, please do not hesitate to reach out to us:
               <br/>
               Email: megasaverr@gmail.com

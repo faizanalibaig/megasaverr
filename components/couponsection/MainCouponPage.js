@@ -119,7 +119,7 @@ const MainCouponPage = () => {
           </section>
 
           <p className='px-5 sm:px-16 lg:px-32 xl:px-40'>
-          Currently, we offer coupon codes for these hosting platforms. In the future, we will expand our selection to include more options. </p>
+          currently, we offer coupon codes for these hosting platforms. soon, we will expand our selection to include more options. </p>
 
         </section>
       </section>
