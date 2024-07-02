@@ -75,9 +75,9 @@ const Navbar = () => {
     };
 
     return (
-        <nav className='bg-black text-white w-full h-[80px] border-y-[2px] border-gray-50/25 font-pathwayExtreme relative'>
+        <nav className='bg-black text-white w-full h-[80px] border-y-[2px] border-white/20 font-pathwayExtreme relative'>
             <header className='h-full flex items-center justify-between relative'>
-                <section className='border-r-[2px] border-gray-50/25 h-full'>
+                <section className='border-r-[2px] border-white/20 h-full'>
                   <Link href='/' id='navheading' className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] font-semibold px-6 sm:px-7 lg:px-6 xl:px-10 py-5 cursor-pointer h-full flex items-center'>
                     megasaverr<span className='text-red-500 sm:text-[20px] lg:text-[22px] xl:text-2xl'>.</span>
                   </Link>
@@ -86,30 +86,30 @@ const Navbar = () => {
                     <section className='h-full flex justify-center items-center w-full '>
                         <div id='menuoption' className='flex lg:text-[15px] xl:text-[18px] font-normal w-full h-full'>
                             {menulist.map((value, index) => (
-                               <section key={value.id} className={`h-full hover:border-r-[2px] border-gray-50/25 ${index !== 0 ? 'hover:border-l-[2px]' : ''}`}>
+                               <section key={value.id} className={`h-full hover:border-r-[2px] border-white/20 ${index !== 0 ? 'hover:border-l-[2px]' : ''}`}>
                                  <Link href={`${value.link}`} className={` h-full lg:px-6 xl:px-10 w-auto flex items-center transition ease-in-out delay-100 duration-200`}>{value.title}</Link>
                                </section>))}
                         </div>
-                        <div className='lg:px-6 xl:px-10 h-full border-l-[2px] border-gray-50/25 flex justify-center items-center' onClick={handleOpenMenu}>
+                        <div className='lg:px-6 xl:px-10 h-full border-l-[2px] border-white/20 flex justify-center items-center' onClick={handleOpenMenu}>
                             <IoMdSearch className='text-[20px]' />
                         </div>
-                        <div className='lg:px-6 xl:px-10 h-full border-l-[2px] border-gray-50/25 flex justify-center items-center'>
+                        <div className='lg:px-6 xl:px-10 h-full border-l-[2px] border-white/20 flex justify-center items-center'>
                             <BsFillBellFill className='text-[16px]' />
                         </div>
                     </section>
                 </section>
                 <div className='flex w-auto h-full'>
                     {openMenu !==true && <section className='h-full block lg:hidden'>
-                        <div className='px-6 sm:px-8 h-full border-l-[2px] border-gray-50/25 flex justify-center items-center'>
+                        <div className='px-6 sm:px-8 h-full border-l-[2px] border-white/20 flex justify-center items-center'>
                             <IoMdSearch className='text-[22px] sm:text-[24px]' onClick={handleOpenMenu} />
                         </div>
                     </section>}
                     <section className='h-full block lg:hidden'>
                         {openMenu ?
-                            <div className='px-6 sm:px-8 h-full border-l-[2px] border-gray-50/25 flex justify-center items-center bg-[#333333] text-white'>
+                            <div className='px-6 sm:px-8 h-full border-l-[2px] border-white/20 flex justify-center items-center bg-[#333333] text-white'>
                                 <MdClose className='text-[22px] sm:text-[24px]' onClick={handleCloseMobileMenu} />
                             </div> :
-                            <div className='px-6 sm:px-8 h-full border-l-[2px] border-gray-50/25 flex justify-center items-center'>
+                            <div className='px-6 sm:px-8 h-full border-l-[2px] border-white/20 flex justify-center items-center'>
                                 <IoMdMenu className='text-[22px] sm:text-[24px]' onClick={handleOpenMobileMenu} />
                             </div>}
                     </section>

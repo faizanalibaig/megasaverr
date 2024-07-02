@@ -9,8 +9,8 @@ const SaveContact = () => {
 {/* block first */}
 
 <section className='flex'>
-    <section className='w-[5%] sm:w-[10%] border-t border-black/10'/>
-    <section className='sm:px-20 py-8 border border-black/10 w-[90%] sm:w-[80%] flex justify-center items-center'>
+    <section className='w-[3%] sm:w-[10%] border-t border-black/10'/>
+    <section className='sm:px-20 pt-8 py-5 border border-black/10 w-[94%] sm:w-[80%] flex justify-center items-center'>
    <h1 className='font-semibold text-[18px] sm:text-[22px] lg:text-[28px] xl:text-[38px] mb-2 text-start sm:text-center px-5 sm:px-0 sm:w-[750px]'>transform your money into passive earning with megasaverr<span className='text-[#EF4444]'>.</span></h1>
   </section>
     <section className='w-[5%] sm:w-[10%] border-y border-black/10'/>
@@ -20,9 +20,9 @@ const SaveContact = () => {
 {/* block second */}
   <section className='w-full flex'>
 
-    <section className='w-[5%] sm:w-[10%] border-b border-black/10 '/>
+    <section className='w-[3%] sm:w-[10%] border-b border-black/10 '/>
 
-    <section className='px-5 sm:px-16 lg:px-24 xl:px-60 py-8 w-[90%] sm:w-[80%] flex flex-col gap-5 items-center justify-between border-b border-x border-black/10'>
+    <section className='px-5 sm:px-16 lg:px-24 xl:px-60 py-8 w-[94%] sm:w-[80%] flex flex-col gap-5 items-center justify-between border-b border-x border-black/10'>
 
     {/* first */}
 
@@ -43,7 +43,7 @@ const SaveContact = () => {
 
   </section>
 
-    <section className='w-[5%] sm:w-[10%] border-b border-black/10'/>
+    <section className='w-[3%] sm:w-[10%] border-b border-black/10'/>
 
   </section>
 </section>  

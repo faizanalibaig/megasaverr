@@ -87,12 +87,12 @@ const CouponSection = () => {
           </p>
         </div>
         <div className='hidden sm:block'>
-          <button className='px-3 lg:px-5 py-2 bg-gray-50/10 border-[2px] border-gray-50/25 flex gap-1 items-center 
-          hover:bg-gray-100/10 active:bg-gray-100/10 mr-6 sm:mr-5 
-           lg:mr-8 xl:mr-9'>
-            <Link href='/couponcode'>view all</Link>
-            <MdArrowOutward />
-          </button>
+        <Link href='/discounts'>
+                <button className='px-3 lg:px-4 py-2 bg-gray-50/10 border-[2px] border-white/10 flex gap-1 items-center'>
+                  <span>view all</span>
+                  <MdArrowOutward />
+                </button>
+              </Link>
         </div>
 
       </section>
@@ -139,12 +139,12 @@ const CouponSection = () => {
        </div>
 
        <div className='block sm:hidden'>
-          <button className='mt-[32px] px-4 lg:px-5 py-2 bg-gray-50/10 border-[2px] border-gray-50/25 flex gap-1 items-center 
-          hover:bg-gray-100/10 active:bg-gray-100/10 hover:border-gray-50/40 active:border-black/20 
-          mr-6'>
-            <Link href='/couponcode'>view all</Link>
-            <MdArrowOutward />
-          </button>
+       <Link href='/discounts'>
+                <button className='px-3 lg:px-4 py-2 bg-gray-50/10 border-[2px] border-white/10 flex gap-1 items-center'>
+                  <span>view all</span>
+                  <MdArrowOutward />
+                </button>
+              </Link>
         </div>
      </section>
 

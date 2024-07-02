@@ -23,7 +23,7 @@ function App() {
       <WelcomeNotification />
       </div>
 
-      <div className="bg-black text-white h-[40px] sm:h-[110px] lg:h-[130px] xl:h-[160px]" />
+      <div className="bg-black text-white h-[80px] sm:h-[110px] lg:h-[130px] xl:h-[160px]" />
     </main>
   );
 }

@@ -47,12 +47,12 @@ const ArticleSection = () => {
           </p>
         </div>
         <div className='hidden sm:block'>
-          <button className='px-3 lg:px-5 py-2 bg-gray-50/10 border-[2px] border-gray-50/25 flex gap-1 items-center 
-          hover:bg-gray-100/10 active:bg-gray-100/10 hover:border-gray-50/40 active:border-black/20 mr-6 sm:mr-5 
-          lg:mr-8 xl:mr-9'>
-            <Link href='/discounts'>view all</Link>
-            <MdArrowOutward />
-          </button>
+        <Link href='/discounts'>
+                <button className='px-3 lg:px-4 py-2 bg-gray-50/10 border-[2px] border-white/10 flex gap-1 items-center'>
+                  <span>view all</span>
+                  <MdArrowOutward />
+                </button>
+              </Link>
         </div>
       </section>
       <div className='px-3 sm:px-7 lg:px-16 xl:px-8 pb-16 h-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 lg:gap-10 xl:gap-8 border-b border-black/10'>
@@ -64,11 +64,12 @@ const ArticleSection = () => {
         </section>
 
         <div className='bg-black text-white pl-3 block sm:hidden'>
-          <button className='px-4 lg:px-5 py-2 bg-gray-50/10 border-[2px] border-gray-50/25 flex gap-1 items-center 
-          hover:bg-gray-100/10 active:bg-gray-100/10 hover:border-gray-50/40 active:border-black/20 mr-6'>
-            <Link href='/discounts'>view all</Link>
-            <MdArrowOutward />
-          </button>
+          <Link href='/discounts'>
+                <button className='px-3 lg:px-4 py-2 bg-gray-50/10 border-[2px] border-white/10 flex gap-1 items-center'>
+                  <span>view all</span>
+                  <MdArrowOutward />
+                </button>
+              </Link>
         </div>
         
       </div>
