@@ -12,7 +12,7 @@ const Errorpage = () => {
         </section>
         <p className='text-[22px] sm:text-[26px] lg:text-[28px] xl:text-[30px] font-semibold mb-4'>page not found</p>
         <p className='text-[14px] sm:text-[15px] xl:text-[18px] mb-4 text-start text-wrap'>
-            we couldn't find the page you are looking for
+            we could not find the page you are looking for
         </p>
         <section className='flex justify-start items-center '>
           <Link href='/' className=''>
