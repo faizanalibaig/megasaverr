@@ -1,4 +1,4 @@
-import FirstArticle from '@/components/articlesection/articlepages/bluehost/FirstArticle'
+import FirstArticle from '@/components/articlesection/articlepages/bluehost/firstArticle'
 import React from 'react'
 
 const First = () => {
