@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import { BsEmojiHeartEyes, BsEmojiSmile, BsEmojiFrown, BsEmojiExpressionless } from "react-icons/bs";
 
-const FirstArticle = ({ heading, metaDescription, description }) => {
+const SecondArticle = ({ heading, metaDescription, description }) => {
   const [selectedEmoji, setSelectedEmoji] = useState(null);
 
   useEffect(() => {
@@ -148,4 +148,4 @@ const FirstArticle = ({ heading, metaDescription, description }) => {
   );
 }
 
-export default FirstArticle;
+export default SecondArticle;

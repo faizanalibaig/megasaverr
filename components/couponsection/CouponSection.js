@@ -77,7 +77,7 @@ const CouponSection = () => {
 
   return (
     <section className='bg-black text-white font-pathwayExtreme'>
-      <section className='flex justify-between items-end mb-14'>
+      <section className='flex justify-between items-end mb-12'>
         <div className='h-full'>
           <h1 className='text-[18px] sm:text-[22px] lg:text-[22px] xl:text-[25px] mb-1 font-semibold w-full h-auto pt-10 pl-6 sm:pl-7 lg:pl-16 xl:pl-9'>
             latest coupons
@@ -86,8 +86,8 @@ const CouponSection = () => {
             the latest coupons on the popular hostings and domains
           </p>
         </div>
-        <div className='hidden sm:block'>
-        <Link href='/discounts'>
+        <div className='sm:pr-7 lg:pr-16 xl:pr-9  hidden sm:block'>
+        <Link href='/couponcodes'>
                 <button className='px-3 lg:px-4 py-2 bg-gray-50/10 border-[2px] border-white/10 flex gap-1 items-center'>
                   <span>view all</span>
                   <MdArrowOutward />
