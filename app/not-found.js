@@ -10,7 +10,7 @@ const Errorpage = () => {
             <h1 className='font-semibold text-[60px] sm:text-[70px] lg:text-[75px] xl:text-[80px]'>
             404</h1>
         </section>
-        <p className='text-[22px] sm:text-[26px] lg:text-[28px] xl:text-[30px] font-semibold mb-4'>page not found</p>
+        <p className='text-[22px] sm:text-[26px] lg:text-[28px] xl:text-[30px] font-semibold mb-4'>page not found</p> 
         <p className='text-[14px] sm:text-[15px] xl:text-[18px] mb-4 text-start text-wrap'>
             we could not find the page you are looking for
         </p>
