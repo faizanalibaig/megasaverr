@@ -4,7 +4,7 @@ import React from 'react'
 const First = () => {
   return (
     <div>
-      <FirstArticle/>
+        <FirstArticle/>
     </div>
   )
 }
