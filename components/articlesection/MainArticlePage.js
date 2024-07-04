@@ -51,14 +51,7 @@ const MainArticlePage = () => {
         {/* Help content */}
         <section className='border-b border-black/10 py-8 sm:py-12 lg:py-16 flex flex-col gap-10 text-[14px] sm:text-[15px] xl:text-[18px]'>
           <p className='px-5 sm:px-16 lg:px-32 xl:px-40'>
-          megasaverr is a leading platform for accessing exclusive discounts and coupon codes for popular web hosting services. with megasaverr, you can discover the latest deals, read unbiased reviews, and find expert tips to optimize your hosting experience.welcome to the hosting discounts page at megasaverr! here, you will find a comprehensive collection of discounts from leading hosting providers. whether you are launching a new website or upgrading your current hosting plan, our platform offers exclusive deals from companies like bluehost, hostinger, godaddy, namecheap, and more.
-<br/> 
-<br/> 
-we understand the importance of reliable and affordable hosting services, which is why we are dedicated to bringing you the best deals in the industry. our team scours the internet to find and verify the most valuable discounts, ensuring you get the best value for your money.
-<br/> 
-<br/> 
-
-stay tuned as we continually update our offerings to bring you the latest savings opportunities across a wide range of hosting services. start saving today with megasaverr!
+          megasaverr is a leading platform for accessing exclusive discounts and coupon codes for popular web hosting services. with megasaverr, you can discover the latest deals, read unbiased reviews, and find expert tips to optimize your hosting experience.welcome to the hosting discounts page at megasaverr! here, you will find a comprehensive collection of discounts from leading hosting providers. whether you are launching a new website or upgrading your current hosting plan, our platform offers exclusive deals from companies like bluehost, hostinger, godaddy, namecheap, and more.<br/><br/>we understand the importance of reliable and affordable hosting services, which is why we are dedicated to bringing you the best deals in the industry.stay tuned as we continually update our offerings to bring you the latest savings opportunities across a wide range of hosting services. start saving today with megasaverr!
           </p>
 
           {/* FAQs section */}

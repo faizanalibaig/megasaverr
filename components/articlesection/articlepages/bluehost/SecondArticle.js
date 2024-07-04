@@ -8,7 +8,7 @@ const SecondArticle = ({ heading, metaDescription, description }) => {
   useEffect(() => {
     window.scroll(0, 0);
     // Retrieve the selected emoji from localStorage when the component mounts
-    const savedEmoji = localStorage.getItem('selectedEmoji');
+    const savedEmoji = localStorage.getItem('selectedEmoji2');
     if (savedEmoji) {
       setSelectedEmoji(Number(savedEmoji));
     }
@@ -24,7 +24,7 @@ const SecondArticle = ({ heading, metaDescription, description }) => {
   const handleEmojiClick = (id) => {
     setSelectedEmoji(id);
     // Save the selected emoji to localStorage
-    localStorage.setItem('selectedEmoji', id);
+    localStorage.setItem('selectedEmoji2', id);
   };
 
   return (

@@ -1,6 +1,8 @@
 'use client'
 import React, { useEffect, useState } from 'react';
 import { BsEmojiHeartEyes, BsEmojiSmile, BsEmojiFrown, BsEmojiExpressionless } from "react-icons/bs";
+import Heading from '../shorthand/Heading';
+import Paragraph from '../shorthand/Paragraph';
 
 const FirstArticle = ({ heading, metaDescription, description }) => {
   const [selectedEmoji, setSelectedEmoji] = useState(null);
@@ -8,7 +10,7 @@ const FirstArticle = ({ heading, metaDescription, description }) => {
   useEffect(() => {
     window.scroll(0, 0);
     // Retrieve the selected emoji from localStorage when the component mounts
-    const savedEmoji = localStorage.getItem('selectedEmoji');
+    const savedEmoji = localStorage.getItem('selectedEmoji1');
     if (savedEmoji) {
       setSelectedEmoji(Number(savedEmoji));
     }
@@ -24,7 +26,7 @@ const FirstArticle = ({ heading, metaDescription, description }) => {
   const handleEmojiClick = (id) => {
     setSelectedEmoji(id);
     // Save the selected emoji to localStorage
-    localStorage.setItem('selectedEmoji', id);
+    localStorage.setItem('selectedEmoji1', id);
   };
 
   return (
@@ -36,22 +38,16 @@ const FirstArticle = ({ heading, metaDescription, description }) => {
       <section className='sm:w-[90%] h-full'>
         {/* Title section */}
         <section className='w-full border-y border-black/10'>
-          <h1 className='text-[26px] sm:text-[36px] lg:text-[45px] xl:text-[50px] font-semibold text-center pt-8 sm:pb-6'>
-            bluehost discounts
-          </h1>
+          
         </section>
 
         <section className='w-full'>
-          <h1 className='text-[16px] lg:text-[18px] xl:text-[19px] font-semibold px-5 sm:px-16 lg:px-32 xl:px-40 pt-12'>
-            how you can get 50% off on the bluehost latest deal?
-          </h1>
+          <Heading heading={'Bluehost offer'}/>
         </section>
 
         {/* Disclaimer content */}
         <section className='border-b border-black/10 px-5 sm:px-16 lg:px-32 xl:px-40 pt-4 pb-8 lg:pt-3 lg:pb-16 flex flex-col gap-10 text-[14px] sm:text-[15px] xl:text-[18px]'>
-          <p>
-            The information provided on megasaverr (the Website) is for general informational purposes only. All information on the Website is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Website.
-          </p>
+          <Paragraph paragraph={'The information provided on megasaverr (the Website) is for general informational purposes only. All information on the Website is provided in good faith, however, we make no representation or warranty of any kind, express or implied, regarding the accuracy, adequacy, validity, reliability, availability, or completeness of any information on the Website.'}/>
 
           <section className='flex flex-col sm:flex-row gap-2'>
             <button className='bg-white/10 py-3 px-4 border border-black/10'>

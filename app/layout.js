@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar/Navbar";
 import Footer from "@/components/footer/Footer";
 import AlertMessage from "@/components/alertmessage/AlertMessage";
 
-const pathway = Pathway_Extreme({weight:['400', '700'], subsets: ["latin"] });
+const pathway = Pathway_Extreme({ weight: ['400', '700'], subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -14,12 +14,15 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <meta name="impact-site-verification" content="96a6a1b9-e6ac-4ae5-a7f1-fbc8efbacd19" />
+      </head>
       <body className={pathway.className}>
-        <AlertMessage/>
-        <Navbar/>
+        <AlertMessage />
+        <Navbar />
         {children}
-        <Footer/>
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }
